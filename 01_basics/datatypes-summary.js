@@ -35,3 +35,34 @@ let myObj ={
 const myFunction =function(){
     console.log("hello je");
 }
+ 
+
+
+
+
+// ***********************TYPES OF MEMORY**********************************************
+//there are two types of memory
+//1 : stack (Stack memory is used in premitive datatypes)  
+//jab bi stack memory ka use hota he to hume, jo bi variable used kiya he he uski copy milti he. mtlb hum agr value me koi change karenge to original value me koi bi change ni hoga balke us copy me change hoga
+//Example
+ let myYoutubeName = "hiteshchoudhrydotcom"
+ let anotherName =myYoutubeName
+ anotherName ="kumardhanesh950@gmail.com"
+ console.log(myYoutubeName)
+ console.log(anotherName);
+ 
+
+
+
+//2 : Heap(heap memory is used i non_primitive datatypes)
+//jab bi heap memory ka use hota he to hume, jo bi variable used kiya he uska reference milta he. mtlb hum agr value me koi change karenge to original value me bi change hoga
+
+let userOne ={
+    name :"Dhanesh kumar",
+    email: "kumardhanesh950@gmail.com"
+}
+
+let usertwo = userOne
+usertwo.email ="khatridhanesh951@gmail.com"
+console.log(userOne)
+console.log(usertwo)

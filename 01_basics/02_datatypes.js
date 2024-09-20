@@ -9,13 +9,13 @@ let isLoggedIn =false
 //PREMATIVE DATA TYPES
 
 //types of Data in javascript 
-//num => 2 to power 53 max value
-//BigInt
-//string => ""
-//boolean =>true/false  possible only two values yes/no or true/flase
-// null => standAlone value //(is also an Object)
-// undefined => 
-// Symbol => unique
+//(1) num => 2 to power 53 max value
+//(2) BigInt
+//(3) string => ""
+//(4) boolean =>true/false  possible only two values yes/no or true/flase
+//(5) null => standAlone value //(is also an Object)
+//(6) undefined => 
+//(7) Symbol => unique
 
 
 
