@@ -16,7 +16,7 @@ const myArr = new Array(1,2,3,4,5,6)
 
 
 // console.log(myArr.indexOf(5)) // we are asking index of myArr
-// myArr.unshift(9) =>  // Array k start se me value add kerta he..but hum isko use ni kerte ku k yeh start me add kerne se baki sari value ko shift hina perta he..for example 0 ka index peh;y 0 tha but ab 0 ka index 1 hogya ku k start me 0 index p 9 agaya
+// myArr.unshift(9) =>  // Array k start se me value add kerta he..but hum isko use ni kerte ku k start me add kerne se baki sari value ko shift hona perta he..for example 0 ka index pehly 0 tha but ab 0 ka index 1 hogya ku k start me 0 index p 9 agaya
 // myArr.shift() // remove 1st value of array
 
 // console.log(myArr.includes(9))
