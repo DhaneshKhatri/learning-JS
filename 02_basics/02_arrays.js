@@ -16,8 +16,16 @@ const myallHeros= [...marvel_heros,...dc_heros]
 // console.log(myallHeros)
 
 // let supppose we have
-const AnArray =[ 1,2,3,[4,5,6],[7,8,[9,10,[11,12]]]]
+const AnArray =[1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]
 // console.log(AnArray.flat(Infinity))
-// we get =>[1, 2, 3, 4, 5,6, 7, 8, 9, 10, 11, 12]
+// we get =>[1, 2, 3, 4, 5, 6, 7, 6, 7, 4, 5]
+
+// console.log(Array.isArray("hitesh"))  // here we are asking kiya yeh array he? we get=> false 
+// console.log(Array.from("hitesh"))  // here we converted this string into array =>[ 'h', 'i', 't', 'e', 's', 'h' ]
 
 
+// console.log(Array.from({name : "Dhanesh"})) // we get empty array [] because hume btana hoga k hune keys ka array chahiye ya values ka
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
+// console.log(Array.of(score1,score2,score3)) we get =>[ 100, 200, 300 ]
