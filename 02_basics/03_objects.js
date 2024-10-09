@@ -27,4 +27,3 @@ Jsuser.greeting =function(){
 console.log(`hello JSuser,${this.name}`);
 
 }
-console.log(Jsuser.greeting())
